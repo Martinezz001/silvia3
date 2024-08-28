@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links com Atalhos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #70ecae;
+            color: white;
+            padding: 2px 0; /* Aumenta o padding para maior altura */
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Garante que o cabeçalho esteja sempre no topo */
+        }
+        main {
+            margin-top: 80px; /* Aumenta o espaçamento superior para compensar o cabeçalho maior */
+            padding: 20px;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Espaçamento entre os cards */
+            justify-content: center; /* Centraliza os cards horizontalmente */
+        }
+        .link-card {
+            flex: 1 1 350px; /* Aumenta a largura mínima dos cards */
+            padding: 20px; /* Aumenta o padding interno do card */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Melhora a sombra do card */
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada ao passar o mouse */
+        }
+        .link-card a {
+            text-decoration: none;
+            color: #70ecae;
+            font-weight: bold;
+            font-size: 20px; /* Aumenta o tamanho da fonte dos links */
+        }
+        .link-card a:focus {
+            outline: 2px solid #70ecae;
+        }
+        footer {
+            background-color: #70ecae;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <h1>Links com Atalhos</h1>
+    </header>
+ 
+    <main>
+        <div class="card-container">
+            <div class="link-card">
+                <a href="https://app.leonardo.ai/auth/login?callbackUrl=%2F%3Fvia%3Dlala-big99%26gad_source%3D1%26gclid%3DEAIaIQobChMI0LOx5OqXiAMVuYzCCB0_6C8oEAAYASAAEgLolvD_BwE" accesskey="l">Ir para Leonardo.ia (Atalho: Alt+L)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://gemini.google.com/app" accesskey="G">Ir para Gemini (Atalho: Alt+G)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://gamma.app/" accesskey="A">Ir para Gamma (Atalho: Alt+A)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://copilot.microsoft.com/" accesskey="M">Ir para Copilot (Atalho: Alt+M)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://suno.com/" accesskey="N">Ir para Suno IA (Atalho: Alt+S)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://www.nvidia.com/en-us/deep-learning-ai/" accesskey="O">Ir para NVIDIA AI (Atalho: Alt+O)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://www.midjourney.com/home" accesskey="P">Ir para Midjourney (Atalho: Alt+P)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://lumalabs.ai/dream-machine" accesskey="Q">Ir para Luma AI (Atalho: Alt+Q)</a>
+            </div>
+           
+            <div class="link-card">
+                <a href="https://storylab.ai/pt/" accesskey="R">Ir para Storylab AI (Atalho: Alt+R)</a>
+            </div>
+        </div>
+    </main>
+ 
+    <footer>
+        <p>&copy;Matheus Martinez 2024</p>
+    </footer>
+ 
+</body>
+</html>
